@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    max-width: 1000px;
+    background-color: rgb(22, 22, 46);
+    margin: 0 auto;
+}
+
+
+/* nav bar design  */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+nav img {
+    height: 80px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+/* navbar design ends  */
+
+.cover {
+    background-color: rgb(41, 26, 105);
+    height: 500px;
+}
+
+/* upcoming events  */
+.upcoming-event {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+.event {
+    width: 280px;
+    background-color: rgba(33, 33, 39, 0.63);
+    border-radius: 5px;
+}
+.event img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.event h3,
+.event p {
+    padding: 10px 5px;
+}
