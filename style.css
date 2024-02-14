@@ -214,6 +214,7 @@ a {
 	flex: 1 0 100%;
 	scroll-snap-align: start;
 	object-fit: cover;
+    padding-top: 100px;
 }
 
 .slider-nav {
