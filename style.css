@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     color: white;
+    font-family: "Roboto", monospace;
 }
 
 body {
@@ -56,8 +59,13 @@ nav ul {
     justify-content: space-around;
     margin: 30px auto;
 }
+
+#u-event {
+    width: 400px;
+}
 .event {
     width: 280px;
+    
     background-color: rgba(33, 33, 39, 0.63);
     border-radius: 5px;
 }
@@ -71,6 +79,7 @@ nav ul {
 .event p {
     padding: 10px 5px;
 }
+
 
 
 /* design section  */
@@ -109,4 +118,37 @@ nav ul {
 
 
 /* Contact  section */
+.contact h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.img-text {
+    display: flex;
+    gap: 10px;
+}
 
+.img-text img {
+    width: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+/* footer  */
+.footer {
+    margin: 25px auto;
+    text-align: center;
+}
