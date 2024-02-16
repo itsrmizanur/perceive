@@ -185,6 +185,13 @@ a {
 .about img {
     height: 200px;
 }
+.about-extra-logo {
+    display: flex;
+    gap: 30px;
+}
+.about-extra-logo img {
+    height: 120px;
+}
 
 
 /* cover slider  */
@@ -235,10 +242,22 @@ a {
 	border-radius: 50%;
 	background-color: #000000;
 	opacity: 0.75;
-    box-shadow: 2px white;
+    box-shadow: 0px 0px 2px 4px white;
 	transition: opacity ease 250ms;
 }
 
 .slider-nav a:hover {
 	opacity: 1;
+}
+
+
+/* media  */
+.read-more {
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #00000028;
+    width: max-content;
 }
